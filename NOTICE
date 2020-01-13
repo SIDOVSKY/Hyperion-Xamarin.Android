@@ -1,0 +1,13 @@
+Hyperion-Xamarin.Android
+Copyright (c) 2020 Vadim Sedov
+Licensed under the MIT license.
+
+This project uses:
+
+Library "Hyperion-Android" (https://github.com/willowtreeapps/Hyperion-Android)
+Copyright (c) 2017 WillowTree, Inc.
+Licensed under the MIT License.
+
+Library "Hyperion-AppInfo" (https://github.com/STAR-ZERO/Hyperion-AppInfo)
+Copyright (c) 2018 Kenji Abe
+Licensed under the MIT License.
