@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
   <metadata>
     <id>Hyperion-Xamarin.Android</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <title>Hyperion-Xamarin.Android</title>
     <authors>SIDOVSKY</authors>
     <license type="expression">MIT</license>
@@ -19,6 +19,12 @@
         <dependency id="Xamarin.Google.Dagger" version="2.25.2.1" />
       </group>
     </dependencies>
+	<releaseNotes>
+		* Hyperion modules updated to version `0.9.28-SNAPSHOT`.
+		  The main reason for using a snapshot version is a fix of annoying background shake activation.
+		* Returned support for separate processes in Crash and Phoenix plugins.
+		  See README for instructions to workaround a bug of multiprocess MonoRuntimeProvider generation for a custom Application class.
+	</releaseNotes>
   </metadata>
   <files>
     <file src="art\icon.png" target="" />
