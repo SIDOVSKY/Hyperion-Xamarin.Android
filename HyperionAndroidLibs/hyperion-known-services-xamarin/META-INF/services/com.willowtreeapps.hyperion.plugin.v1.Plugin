@@ -1,0 +1,9 @@
+com.willowtreeapps.hyperion.attr.AttributeInspectorPlugin
+com.willowtreeapps.hyperion.crash.CrashPlugin
+com.willowtreeapps.hyperion.disk.DiskPlugin
+com.willowtreeapps.hyperion.geigercounter.GeigerCounterPlugin
+com.willowtreeapps.hyperion.measurement.MeasurementInspectorPlugin
+com.willowtreeapps.hyperion.phoenix.PhoenixPlugin
+com.willowtreeapps.hyperion.recorder.RecorderPlugin
+com.willowtreeapps.hyperion.sharedpreferences.SharedPreferencesPlugin
+com.star_zero.hyperion.appinfo.AppInfoPlugin
