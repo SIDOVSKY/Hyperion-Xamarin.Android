@@ -34,8 +34,8 @@ If you want to enable it for other configurations please set `$(EnableHyperion)`
 <manifest ... >
 	<application ...>
 		...
-		<service android:name="xamarin.mark.for.MonoRuntimeProvider.generation" android:process=":crash" />
-		<service android:name="xamarin.mark.for.MonoRuntimeProvider.generation" android:process=":phoenix" />
+		<service android:name="xamarin.mark.for.MonoRuntimeProvider.generation.crash" android:process=":crash" />
+		<service android:name="xamarin.mark.for.MonoRuntimeProvider.generation.phoenix" android:process=":phoenix" />
 ...
 ```
 This will help Xamarin.Android build tasks to generate and register MonoRuntimeProviders for processes declared in java libraries. 
