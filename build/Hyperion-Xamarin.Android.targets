@@ -1,0 +1,11 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="HyperionXamarinAndroid_Add" AfterTargets="_PrepareBuildApk">
+    <PropertyGroup>
+      <_ExtractedJarImportsWithHyperionKnownServices>$(MSBuildThisFileDirectory)..\HyperionKnownServicesXamarin\hyperion-known-services.jar;@(ExtractedJarImports)</_ExtractedJarImportsWithHyperionKnownServices>
+    </PropertyGroup>
+    <ItemGroup>
+      <ExtractedJarImports Remove="@(ExtractedJarImports)" />
+      <ExtractedJarImports Include="$(_ExtractedJarImportsWithHyperionKnownServices)" />
+    </ItemGroup>
+  </Target>
+</Project>

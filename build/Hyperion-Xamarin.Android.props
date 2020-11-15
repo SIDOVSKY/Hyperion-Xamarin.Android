@@ -4,7 +4,6 @@
 		<_HyperionCorePluginsVersion>0.9.30</_HyperionCorePluginsVersion>
 	</PropertyGroup>
     <ItemGroup Condition=" '$(EnableHyperion)' == 'true' OR '$(EnableHyperion)' == 'True' ">
-        <AndroidAarLibrary Include="$(MSBuildThisFileDirectory)..\HyperionAndroidLibs\hyperion-known-services-xamarin.aar" />
         <AndroidAarLibrary Include="$(MSBuildThisFileDirectory)..\HyperionAndroidLibs\hyperion-appinfo-1.1.0.aar" />
         <AndroidAarLibrary Include="$(MSBuildThisFileDirectory)..\HyperionAndroidLibs\hyperion-attr-$(_HyperionCorePluginsVersion).aar" />
         <AndroidAarLibrary Include="$(MSBuildThisFileDirectory)..\HyperionAndroidLibs\hyperion-attr-appcompat-v7-$(_HyperionCorePluginsVersion).aar" />
