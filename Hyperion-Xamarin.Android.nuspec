@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
   <metadata>
     <id>Hyperion-Xamarin.Android</id>
-    <version>1.2.0</version>
+    <version>1.2.1</version>
     <title>Hyperion-Xamarin.Android</title>
     <authors>SIDOVSKY</authors>
     <license type="expression">MIT</license>
@@ -24,9 +24,7 @@
       </group>
     </dependencies>
 	<releaseNotes>
-        * Fix missing services after Xamarin.Android build tasks update
-		* Hyperion modules updated to version `0.9.30`.
-            * Added androidx support
+        * Improve fix of missing services after Xamarin.Android build tasks update. Supports apps with 100+ jars to compile.
 	</releaseNotes>
   </metadata>
   <files>
