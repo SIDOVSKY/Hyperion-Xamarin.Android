@@ -1,5 +1,7 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Target Name="HyperionXamarinAndroid_Add" AfterTargets="_PrepareBuildApk">
+  <Target Name="HyperionXamarinAndroid_AddKnownServices"
+          AfterTargets="_PrepareBuildApk"
+          Condition=" '$(EnableHyperion)' == 'true' OR '$(EnableHyperion)' == 'True' ">
     <PropertyGroup>
       <_ExtractedJarImportsWithHyperionKnownServices>$(MSBuildThisFileDirectory)..\HyperionKnownServicesXamarin\hyperion-known-services.jar;@(ExtractedJarImports)</_ExtractedJarImportsWithHyperionKnownServices>
     </PropertyGroup>

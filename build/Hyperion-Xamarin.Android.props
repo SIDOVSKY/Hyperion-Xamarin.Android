@@ -1,8 +1,8 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<PropertyGroup>
-		<EnableHyperion Condition=" '$(EnableHyperion)' == '' AND '$(Configuration)' == 'Debug' ">true</EnableHyperion>
-		<_HyperionCorePluginsVersion>0.9.30</_HyperionCorePluginsVersion>
-	</PropertyGroup>
+  <PropertyGroup>
+    <EnableHyperion Condition=" '$(EnableHyperion)' == '' AND '$(Configuration)' == 'Debug' ">true</EnableHyperion>
+    <_HyperionCorePluginsVersion>0.9.30</_HyperionCorePluginsVersion>
+  </PropertyGroup>
     <ItemGroup Condition=" '$(EnableHyperion)' == 'true' OR '$(EnableHyperion)' == 'True' ">
         <AndroidAarLibrary Include="$(MSBuildThisFileDirectory)..\HyperionAndroidLibs\hyperion-appinfo-1.1.0.aar" />
         <AndroidAarLibrary Include="$(MSBuildThisFileDirectory)..\HyperionAndroidLibs\hyperion-attr-$(_HyperionCorePluginsVersion).aar" />
